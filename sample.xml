@@ -1,0 +1,1762 @@
+<?xml version="1.0"?>
+<AST_php_script xmlns="http://www.phpcompiler.org/phc-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<attrs />
+	<AST_interface_def_list>
+		<attrs>
+			<attr key="phc.comments">
+			</attr>
+		</attrs>
+		<AST_interface_def>
+			<attrs>
+				<attr key="phc.comments">
+				</attr>
+				<attr key="phc.filename">sample.php</attr>
+				<attr key="phc.line_number">22</attr>
+			</attrs>
+			<Token_interface_name>
+				<attrs />
+				<value>Interface_Foo</value>
+			</Token_interface_name>
+			<Token_interface_name_list>
+				<attrs />
+			</Token_interface_name_list>
+			<AST_member_list>
+				<attrs>
+					<attr key="phc.comments">
+					</attr>
+				</attrs>
+				<AST_attribute>
+					<attrs>
+						<attr key="phc.comments">
+						</attr>
+						<attr key="phc.filename">sample.php</attr>
+						<attr key="phc.line_number">23</attr>
+					</attrs>
+					<AST_attr_mod>
+						<attrs />
+						<bool>false</bool>
+						<bool>false</bool>
+						<bool>false</bool>
+						<bool>false</bool>
+						<bool>true</bool>
+					</AST_attr_mod>
+					<Token_variable_name>
+						<attrs />
+						<value>CONST_AAA</value>
+					</Token_variable_name>
+					<Token_int>
+						<attrs>
+							<attr key="phc.filename">sample.php</attr>
+							<attr key="phc.line_number">23</attr>
+							<attr key="phc.unparser.needs_brackets">false</attr>
+						</attrs>
+						<value>1</value>
+						<source_rep>1</source_rep>
+					</Token_int>
+				</AST_attribute>
+				<AST_attribute>
+					<attrs>
+						<attr key="phc.comments">
+						</attr>
+						<attr key="phc.filename">sample.php</attr>
+						<attr key="phc.line_number">24</attr>
+					</attrs>
+					<AST_attr_mod>
+						<attrs />
+						<bool>false</bool>
+						<bool>false</bool>
+						<bool>false</bool>
+						<bool>false</bool>
+						<bool>true</bool>
+					</AST_attr_mod>
+					<Token_variable_name>
+						<attrs />
+						<value>CONST_BBB</value>
+					</Token_variable_name>
+					<Token_string>
+						<attrs>
+							<attr key="phc.filename">sample.php</attr>
+							<attr key="phc.line_number">24</attr>
+							<attr key="phc.unparser.needs_brackets">false</attr>
+						</attrs>
+						<value>hello</value>
+						<source_rep>hello</source_rep>
+					</Token_string>
+				</AST_attribute>
+				<AST_attribute>
+					<attrs>
+						<attr key="phc.comments">
+						</attr>
+						<attr key="phc.filename">sample.php</attr>
+						<attr key="phc.line_number">25</attr>
+					</attrs>
+					<AST_attr_mod>
+						<attrs />
+						<bool>false</bool>
+						<bool>false</bool>
+						<bool>false</bool>
+						<bool>false</bool>
+						<bool>true</bool>
+					</AST_attr_mod>
+					<Token_variable_name>
+						<attrs />
+						<value>CONST_CCC</value>
+					</Token_variable_name>
+					<Token_bool>
+						<attrs>
+							<attr key="phc.filename">sample.php</attr>
+							<attr key="phc.line_number">25</attr>
+							<attr key="phc.unparser.needs_brackets">false</attr>
+						</attrs>
+						<value>False</value>
+						<source_rep>false</source_rep>
+					</Token_bool>
+				</AST_attribute>
+				<AST_method>
+					<attrs>
+						<attr key="phc.comments">
+						</attr>
+						<attr key="phc.filename">sample.php</attr>
+						<attr key="phc.line_number">26</attr>
+					</attrs>
+					<AST_signature>
+						<attrs>
+							<attr key="phc.filename">sample.php</attr>
+							<attr key="phc.line_number">26</attr>
+						</attrs>
+						<AST_method_mod>
+							<attrs />
+							<bool>true</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+						</AST_method_mod>
+						<bool>false</bool>
+						<Token_method_name>
+							<attrs />
+							<value>methodA</value>
+						</Token_method_name>
+						<AST_formal_parameter_list>
+							<attrs />
+						</AST_formal_parameter_list>
+					</AST_signature>
+					<AST_statement_list xsi:nil="true" />
+				</AST_method>
+				<AST_method>
+					<attrs>
+						<attr key="phc.comments">
+						</attr>
+						<attr key="phc.filename">sample.php</attr>
+						<attr key="phc.line_number">27</attr>
+					</attrs>
+					<AST_signature>
+						<attrs>
+							<attr key="phc.filename">sample.php</attr>
+							<attr key="phc.line_number">27</attr>
+						</attrs>
+						<AST_method_mod>
+							<attrs />
+							<bool>true</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+						</AST_method_mod>
+						<bool>false</bool>
+						<Token_method_name>
+							<attrs />
+							<value>methodB</value>
+						</Token_method_name>
+						<AST_formal_parameter_list>
+							<attrs />
+							<AST_formal_parameter>
+								<attrs>
+									<attr key="phc.filename">sample.php</attr>
+									<attr key="phc.line_number">27</attr>
+								</attrs>
+								<AST_type>
+									<attrs>
+										<attr key="phc.filename">sample.php</attr>
+										<attr key="phc.line_number">27</attr>
+									</attrs>
+									<bool>false</bool>
+									<Token_class_name>
+										<attrs />
+										<value>Hoge</value>
+									</Token_class_name>
+								</AST_type>
+								<bool>false</bool>
+								<Token_variable_name>
+									<attrs />
+									<value>hoge</value>
+								</Token_variable_name>
+								<AST_expr xsi:nil="true" />
+							</AST_formal_parameter>
+						</AST_formal_parameter_list>
+					</AST_signature>
+					<AST_statement_list xsi:nil="true" />
+				</AST_method>
+				<AST_method>
+					<attrs>
+						<attr key="phc.comments">
+						</attr>
+						<attr key="phc.filename">sample.php</attr>
+						<attr key="phc.line_number">28</attr>
+					</attrs>
+					<AST_signature>
+						<attrs>
+							<attr key="phc.filename">sample.php</attr>
+							<attr key="phc.line_number">28</attr>
+						</attrs>
+						<AST_method_mod>
+							<attrs />
+							<bool>true</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+						</AST_method_mod>
+						<bool>false</bool>
+						<Token_method_name>
+							<attrs />
+							<value>methodC</value>
+						</Token_method_name>
+						<AST_formal_parameter_list>
+							<attrs />
+							<AST_formal_parameter>
+								<attrs>
+									<attr key="phc.filename">sample.php</attr>
+									<attr key="phc.line_number">28</attr>
+								</attrs>
+								<AST_type>
+									<attrs>
+										<attr key="phc.filename">sample.php</attr>
+										<attr key="phc.line_number">28</attr>
+									</attrs>
+									<bool>false</bool>
+									<Token_class_name>
+										<attrs />
+										<value>Hoge</value>
+									</Token_class_name>
+								</AST_type>
+								<bool>false</bool>
+								<Token_variable_name>
+									<attrs />
+									<value>foo</value>
+								</Token_variable_name>
+								<AST_expr xsi:nil="true" />
+							</AST_formal_parameter>
+							<AST_formal_parameter>
+								<attrs>
+									<attr key="phc.filename">sample.php</attr>
+									<attr key="phc.line_number">28</attr>
+								</attrs>
+								<AST_type>
+									<attrs>
+										<attr key="phc.filename">sample.php</attr>
+										<attr key="phc.line_number">28</attr>
+									</attrs>
+									<bool>false</bool>
+									<Token_class_name>
+										<attrs />
+										<value>Hoge</value>
+									</Token_class_name>
+								</AST_type>
+								<bool>false</bool>
+								<Token_variable_name>
+									<attrs />
+									<value>bar</value>
+								</Token_variable_name>
+								<AST_expr xsi:nil="true" />
+							</AST_formal_parameter>
+						</AST_formal_parameter_list>
+					</AST_signature>
+					<AST_statement_list xsi:nil="true" />
+				</AST_method>
+			</AST_member_list>
+		</AST_interface_def>
+		<AST_interface_def>
+			<attrs>
+				<attr key="phc.comments">
+				</attr>
+				<attr key="phc.filename">sample.php</attr>
+				<attr key="phc.line_number">30</attr>
+			</attrs>
+			<Token_interface_name>
+				<attrs />
+				<value>Interface_Foo2</value>
+			</Token_interface_name>
+			<Token_interface_name_list>
+				<attrs />
+			</Token_interface_name_list>
+			<AST_member_list>
+				<attrs>
+					<attr key="phc.comments">
+					</attr>
+				</attrs>
+				<AST_attribute>
+					<attrs>
+						<attr key="phc.comments">
+						</attr>
+						<attr key="phc.filename">sample.php</attr>
+						<attr key="phc.line_number">31</attr>
+					</attrs>
+					<AST_attr_mod>
+						<attrs />
+						<bool>false</bool>
+						<bool>false</bool>
+						<bool>false</bool>
+						<bool>false</bool>
+						<bool>true</bool>
+					</AST_attr_mod>
+					<Token_variable_name>
+						<attrs />
+						<value>CONST_AAAAAAA</value>
+					</Token_variable_name>
+					<Token_real>
+						<attrs>
+							<attr key="phc.filename">sample.php</attr>
+							<attr key="phc.line_number">31</attr>
+							<attr key="phc.unparser.needs_brackets">false</attr>
+						</attrs>
+						<value>0.12299999999999999822</value>
+						<source_rep>0.123</source_rep>
+					</Token_real>
+				</AST_attribute>
+			</AST_member_list>
+		</AST_interface_def>
+	</AST_interface_def_list>
+	<AST_class_def_list>
+		<attrs>
+			<attr key="phc.comments">
+			</attr>
+		</attrs>
+		<AST_class_def>
+			<attrs>
+				<attr key="phc.comments">
+				</attr>
+				<attr key="phc.filename">sample.php</attr>
+				<attr key="phc.line_number">2</attr>
+			</attrs>
+			<AST_class_mod>
+				<attrs>
+					<attr key="phc.filename">sample.php</attr>
+					<attr key="phc.line_number">2</attr>
+				</attrs>
+				<bool>false</bool>
+				<bool>false</bool>
+			</AST_class_mod>
+			<Token_class_name>
+				<attrs />
+				<value>Class_Hoge</value>
+			</Token_class_name>
+			<Token_class_name xsi:nil="true" />
+			<Token_interface_name_list>
+				<attrs />
+			</Token_interface_name_list>
+			<AST_member_list>
+				<attrs>
+					<attr key="phc.comments">
+					</attr>
+				</attrs>
+				<AST_attribute>
+					<attrs>
+						<attr key="phc.comments">
+						</attr>
+						<attr key="phc.filename">sample.php</attr>
+						<attr key="phc.line_number">3</attr>
+					</attrs>
+					<AST_attr_mod>
+						<attrs />
+						<bool>false</bool>
+						<bool>false</bool>
+						<bool>false</bool>
+						<bool>false</bool>
+						<bool>true</bool>
+					</AST_attr_mod>
+					<Token_variable_name>
+						<attrs />
+						<value>const_A</value>
+					</Token_variable_name>
+					<Token_int>
+						<attrs>
+							<attr key="phc.filename">sample.php</attr>
+							<attr key="phc.line_number">3</attr>
+							<attr key="phc.unparser.needs_brackets">false</attr>
+						</attrs>
+						<value>0</value>
+						<source_rep>0</source_rep>
+					</Token_int>
+				</AST_attribute>
+				<AST_attribute>
+					<attrs>
+						<attr key="phc.comments">
+						</attr>
+						<attr key="phc.filename">sample.php</attr>
+						<attr key="phc.line_number">4</attr>
+					</attrs>
+					<AST_attr_mod>
+						<attrs />
+						<bool>false</bool>
+						<bool>false</bool>
+						<bool>false</bool>
+						<bool>false</bool>
+						<bool>true</bool>
+					</AST_attr_mod>
+					<Token_variable_name>
+						<attrs />
+						<value>const_B</value>
+					</Token_variable_name>
+					<Token_real>
+						<attrs>
+							<attr key="phc.filename">sample.php</attr>
+							<attr key="phc.line_number">4</attr>
+							<attr key="phc.unparser.needs_brackets">false</attr>
+						</attrs>
+						<value>1.0209999999999999076</value>
+						<source_rep>1.021</source_rep>
+					</Token_real>
+				</AST_attribute>
+				<AST_attribute>
+					<attrs>
+						<attr key="phc.comments">
+						</attr>
+						<attr key="phc.filename">sample.php</attr>
+						<attr key="phc.line_number">5</attr>
+					</attrs>
+					<AST_attr_mod>
+						<attrs>
+							<attr key="phc.filename">sample.php</attr>
+							<attr key="phc.line_number">5</attr>
+						</attrs>
+						<bool>false</bool>
+						<bool>false</bool>
+						<bool>true</bool>
+						<bool>false</bool>
+						<bool>false</bool>
+					</AST_attr_mod>
+					<Token_variable_name>
+						<attrs />
+						<value>propertyA</value>
+					</Token_variable_name>
+					<AST_array>
+						<attrs>
+							<attr key="phc.filename">sample.php</attr>
+							<attr key="phc.line_number">5</attr>
+							<attr key="phc.unparser.needs_brackets">false</attr>
+						</attrs>
+						<AST_array_elem_list>
+							<attrs />
+						</AST_array_elem_list>
+					</AST_array>
+				</AST_attribute>
+				<AST_attribute>
+					<attrs>
+						<attr key="phc.comments">
+						</attr>
+						<attr key="phc.filename">sample.php</attr>
+						<attr key="phc.line_number">6</attr>
+					</attrs>
+					<AST_attr_mod>
+						<attrs>
+							<attr key="phc.filename">sample.php</attr>
+							<attr key="phc.line_number">6</attr>
+						</attrs>
+						<bool>false</bool>
+						<bool>false</bool>
+						<bool>true</bool>
+						<bool>true</bool>
+						<bool>false</bool>
+					</AST_attr_mod>
+					<Token_variable_name>
+						<attrs />
+						<value>static_propertyB</value>
+					</Token_variable_name>
+					<AST_expr xsi:nil="true" />
+				</AST_attribute>
+				<AST_attribute>
+					<attrs>
+						<attr key="phc.comments">
+						</attr>
+						<attr key="phc.filename">sample.php</attr>
+						<attr key="phc.line_number">7</attr>
+					</attrs>
+					<AST_attr_mod>
+						<attrs>
+							<attr key="phc.filename">sample.php</attr>
+							<attr key="phc.line_number">7</attr>
+						</attrs>
+						<bool>false</bool>
+						<bool>true</bool>
+						<bool>false</bool>
+						<bool>false</bool>
+						<bool>false</bool>
+					</AST_attr_mod>
+					<Token_variable_name>
+						<attrs />
+						<value>propertyC</value>
+					</Token_variable_name>
+					<AST_array>
+						<attrs>
+							<attr key="phc.filename">sample.php</attr>
+							<attr key="phc.line_number">7</attr>
+							<attr key="phc.unparser.needs_brackets">false</attr>
+						</attrs>
+						<AST_array_elem_list>
+							<attrs />
+							<AST_array_elem>
+								<attrs>
+									<attr key="phc.filename">sample.php</attr>
+									<attr key="phc.line_number">7</attr>
+								</attrs>
+								<AST_expr xsi:nil="true" />
+								<bool>false</bool>
+								<Token_int>
+									<attrs>
+										<attr key="phc.filename">sample.php</attr>
+										<attr key="phc.line_number">7</attr>
+										<attr key="phc.unparser.needs_brackets">false</attr>
+									</attrs>
+									<value>1</value>
+									<source_rep>1</source_rep>
+								</Token_int>
+							</AST_array_elem>
+							<AST_array_elem>
+								<attrs>
+									<attr key="phc.filename">sample.php</attr>
+									<attr key="phc.line_number">7</attr>
+								</attrs>
+								<AST_expr xsi:nil="true" />
+								<bool>false</bool>
+								<Token_string>
+									<attrs>
+										<attr key="phc.filename">sample.php</attr>
+										<attr key="phc.line_number">7</attr>
+										<attr key="phc.unparser.needs_brackets">false</attr>
+									</attrs>
+									<value>hello</value>
+									<source_rep>hello</source_rep>
+								</Token_string>
+							</AST_array_elem>
+							<AST_array_elem>
+								<attrs>
+									<attr key="phc.filename">sample.php</attr>
+									<attr key="phc.line_number">7</attr>
+								</attrs>
+								<Token_string>
+									<attrs>
+										<attr key="phc.filename">sample.php</attr>
+										<attr key="phc.line_number">7</attr>
+										<attr key="phc.unparser.needs_brackets">false</attr>
+									</attrs>
+									<value>key_hoge</value>
+									<source_rep>key_hoge</source_rep>
+								</Token_string>
+								<bool>false</bool>
+								<Token_string>
+									<attrs>
+										<attr key="phc.filename">sample.php</attr>
+										<attr key="phc.line_number">7</attr>
+										<attr key="phc.unparser.needs_brackets">false</attr>
+									</attrs>
+									<value>value_foo</value>
+									<source_rep>value_foo</source_rep>
+								</Token_string>
+							</AST_array_elem>
+							<AST_array_elem>
+								<attrs>
+									<attr key="phc.filename">sample.php</attr>
+									<attr key="phc.line_number">7</attr>
+								</attrs>
+								<AST_expr xsi:nil="true" />
+								<bool>false</bool>
+								<AST_array>
+									<attrs>
+										<attr key="phc.filename">sample.php</attr>
+										<attr key="phc.line_number">7</attr>
+										<attr key="phc.unparser.needs_brackets">false</attr>
+									</attrs>
+									<AST_array_elem_list>
+										<attrs />
+										<AST_array_elem>
+											<attrs>
+												<attr key="phc.filename">sample.php</attr>
+												<attr key="phc.line_number">7</attr>
+											</attrs>
+											<Token_string>
+												<attrs>
+													<attr key="phc.filename">sample.php</attr>
+													<attr key="phc.line_number">7</attr>
+													<attr key="phc.unparser.needs_brackets">false</attr>
+												</attrs>
+												<value>k1</value>
+												<source_rep>k1</source_rep>
+											</Token_string>
+											<bool>false</bool>
+											<Token_string>
+												<attrs>
+													<attr key="phc.filename">sample.php</attr>
+													<attr key="phc.line_number">7</attr>
+													<attr key="phc.unparser.needs_brackets">false</attr>
+												</attrs>
+												<value>v1</value>
+												<source_rep>v1</source_rep>
+											</Token_string>
+										</AST_array_elem>
+										<AST_array_elem>
+											<attrs>
+												<attr key="phc.filename">sample.php</attr>
+												<attr key="phc.line_number">7</attr>
+											</attrs>
+											<Token_string>
+												<attrs>
+													<attr key="phc.filename">sample.php</attr>
+													<attr key="phc.line_number">7</attr>
+													<attr key="phc.unparser.needs_brackets">false</attr>
+												</attrs>
+												<value>k2</value>
+												<source_rep>k2</source_rep>
+											</Token_string>
+											<bool>false</bool>
+											<Token_string>
+												<attrs>
+													<attr key="phc.filename">sample.php</attr>
+													<attr key="phc.line_number">7</attr>
+													<attr key="phc.unparser.needs_brackets">false</attr>
+												</attrs>
+												<value>v2</value>
+												<source_rep>v2</source_rep>
+											</Token_string>
+										</AST_array_elem>
+										<AST_array_elem>
+											<attrs>
+												<attr key="phc.filename">sample.php</attr>
+												<attr key="phc.line_number">7</attr>
+											</attrs>
+											<Token_string>
+												<attrs>
+													<attr key="phc.filename">sample.php</attr>
+													<attr key="phc.line_number">7</attr>
+													<attr key="phc.unparser.needs_brackets">false</attr>
+												</attrs>
+												<value>k3</value>
+												<source_rep>k3</source_rep>
+											</Token_string>
+											<bool>false</bool>
+											<Token_string>
+												<attrs>
+													<attr key="phc.filename">sample.php</attr>
+													<attr key="phc.line_number">7</attr>
+													<attr key="phc.unparser.needs_brackets">false</attr>
+												</attrs>
+												<value>k4</value>
+												<source_rep>k4</source_rep>
+											</Token_string>
+										</AST_array_elem>
+									</AST_array_elem_list>
+								</AST_array>
+							</AST_array_elem>
+							<AST_array_elem>
+								<attrs>
+									<attr key="phc.filename">sample.php</attr>
+									<attr key="phc.line_number">7</attr>
+								</attrs>
+								<Token_int>
+									<attrs>
+										<attr key="phc.filename">sample.php</attr>
+										<attr key="phc.line_number">7</attr>
+										<attr key="phc.unparser.needs_brackets">false</attr>
+									</attrs>
+									<value>1</value>
+									<source_rep>1</source_rep>
+								</Token_int>
+								<bool>false</bool>
+								<Token_string>
+									<attrs>
+										<attr key="phc.filename">sample.php</attr>
+										<attr key="phc.line_number">7</attr>
+										<attr key="phc.unparser.needs_brackets">false</attr>
+									</attrs>
+									<value>7</value>
+									<source_rep>7</source_rep>
+								</Token_string>
+							</AST_array_elem>
+							<AST_array_elem>
+								<attrs>
+									<attr key="phc.filename">sample.php</attr>
+									<attr key="phc.line_number">7</attr>
+								</attrs>
+								<Token_int>
+									<attrs>
+										<attr key="phc.filename">sample.php</attr>
+										<attr key="phc.line_number">7</attr>
+										<attr key="phc.unparser.needs_brackets">false</attr>
+									</attrs>
+									<value>2</value>
+									<source_rep>2</source_rep>
+								</Token_int>
+								<bool>false</bool>
+								<Token_string>
+									<attrs>
+										<attr key="phc.filename">sample.php</attr>
+										<attr key="phc.line_number">7</attr>
+										<attr key="phc.unparser.needs_brackets">false</attr>
+									</attrs>
+									<value>8</value>
+									<source_rep>8</source_rep>
+								</Token_string>
+							</AST_array_elem>
+						</AST_array_elem_list>
+					</AST_array>
+				</AST_attribute>
+				<AST_attribute>
+					<attrs>
+						<attr key="phc.comments">
+						</attr>
+						<attr key="phc.filename">sample.php</attr>
+						<attr key="phc.line_number">8</attr>
+					</attrs>
+					<AST_attr_mod>
+						<attrs>
+							<attr key="phc.filename">sample.php</attr>
+							<attr key="phc.line_number">8</attr>
+						</attrs>
+						<bool>true</bool>
+						<bool>false</bool>
+						<bool>false</bool>
+						<bool>false</bool>
+						<bool>false</bool>
+					</AST_attr_mod>
+					<Token_variable_name>
+						<attrs />
+						<value>propertyD</value>
+					</Token_variable_name>
+					<Token_bool>
+						<attrs>
+							<attr key="phc.filename">sample.php</attr>
+							<attr key="phc.line_number">8</attr>
+							<attr key="phc.unparser.needs_brackets">false</attr>
+						</attrs>
+						<value>False</value>
+						<source_rep>false</source_rep>
+					</Token_bool>
+				</AST_attribute>
+				<AST_method>
+					<attrs>
+						<attr key="phc.comments">
+						</attr>
+						<attr key="phc.filename">sample.php</attr>
+						<attr key="phc.line_number">9</attr>
+					</attrs>
+					<AST_signature>
+						<attrs>
+							<attr key="phc.filename">sample.php</attr>
+							<attr key="phc.line_number">11</attr>
+						</attrs>
+						<AST_method_mod>
+							<attrs />
+							<bool>true</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+						</AST_method_mod>
+						<bool>false</bool>
+						<Token_method_name>
+							<attrs />
+							<value>public_method_aaa</value>
+						</Token_method_name>
+						<AST_formal_parameter_list>
+							<attrs />
+						</AST_formal_parameter_list>
+					</AST_signature>
+					<AST_statement_list>
+						<attrs>
+							<attr key="phc.comments">
+							</attr>
+						</attrs>
+						<AST_eval_expr>
+							<attrs>
+								<attr key="phc.comments">
+								</attr>
+								<attr key="phc.filename">sample.php</attr>
+								<attr key="phc.line_number">10</attr>
+							</attrs>
+							<AST_assignment>
+								<attrs>
+									<attr key="phc.filename">sample.php</attr>
+									<attr key="phc.line_number">10</attr>
+									<attr key="phc.unparser.is_global_stmt">false</attr>
+									<attr key="phc.unparser.needs_brackets">false</attr>
+								</attrs>
+								<AST_variable>
+									<attrs>
+										<attr key="phc.filename">sample.php</attr>
+										<attr key="phc.line_number">10</attr>
+										<attr key="phc.unparser.needs_brackets">false</attr>
+									</attrs>
+									<AST_target xsi:nil="true" />
+									<Token_variable_name>
+										<attrs />
+										<value>hoge</value>
+									</Token_variable_name>
+									<AST_expr_list>
+										<attrs />
+									</AST_expr_list>
+									<AST_expr xsi:nil="true" />
+								</AST_variable>
+								<bool>false</bool>
+								<AST_new>
+									<attrs>
+										<attr key="phc.filename">sample.php</attr>
+										<attr key="phc.line_number">10</attr>
+										<attr key="phc.unparser.needs_brackets">false</attr>
+									</attrs>
+									<Token_class_name>
+										<attrs />
+										<value>Hoge</value>
+									</Token_class_name>
+									<AST_actual_parameter_list>
+										<attrs />
+									</AST_actual_parameter_list>
+								</AST_new>
+							</AST_assignment>
+						</AST_eval_expr>
+					</AST_statement_list>
+				</AST_method>
+				<AST_method>
+					<attrs>
+						<attr key="phc.comments">
+						</attr>
+						<attr key="phc.filename">sample.php</attr>
+						<attr key="phc.line_number">12</attr>
+					</attrs>
+					<AST_signature>
+						<attrs>
+							<attr key="phc.filename">sample.php</attr>
+							<attr key="phc.line_number">14</attr>
+						</attrs>
+						<AST_method_mod>
+							<attrs />
+							<bool>false</bool>
+							<bool>true</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+						</AST_method_mod>
+						<bool>false</bool>
+						<Token_method_name>
+							<attrs />
+							<value>protected_method_bbb</value>
+						</Token_method_name>
+						<AST_formal_parameter_list>
+							<attrs />
+							<AST_formal_parameter>
+								<attrs>
+									<attr key="phc.filename">sample.php</attr>
+									<attr key="phc.line_number">12</attr>
+								</attrs>
+								<AST_type>
+									<attrs>
+										<attr key="phc.filename">sample.php</attr>
+										<attr key="phc.line_number">12</attr>
+									</attrs>
+									<bool>false</bool>
+									<Token_class_name>
+										<attrs />
+										<value>Hoge</value>
+									</Token_class_name>
+								</AST_type>
+								<bool>false</bool>
+								<Token_variable_name>
+									<attrs />
+									<value>a</value>
+								</Token_variable_name>
+								<AST_expr xsi:nil="true" />
+							</AST_formal_parameter>
+						</AST_formal_parameter_list>
+					</AST_signature>
+					<AST_statement_list>
+						<attrs>
+							<attr key="phc.comments">
+							</attr>
+						</attrs>
+						<AST_eval_expr>
+							<attrs>
+								<attr key="phc.comments">
+								</attr>
+								<attr key="phc.filename">sample.php</attr>
+								<attr key="phc.line_number">13</attr>
+							</attrs>
+							<AST_assignment>
+								<attrs>
+									<attr key="phc.filename">sample.php</attr>
+									<attr key="phc.line_number">13</attr>
+									<attr key="phc.unparser.is_global_stmt">false</attr>
+									<attr key="phc.unparser.needs_brackets">false</attr>
+								</attrs>
+								<AST_variable>
+									<attrs>
+										<attr key="phc.filename">sample.php</attr>
+										<attr key="phc.line_number">13</attr>
+										<attr key="phc.unparser.needs_brackets">false</attr>
+									</attrs>
+									<AST_target xsi:nil="true" />
+									<Token_variable_name>
+										<attrs />
+										<value>foo</value>
+									</Token_variable_name>
+									<AST_expr_list>
+										<attrs />
+									</AST_expr_list>
+									<AST_expr xsi:nil="true" />
+								</AST_variable>
+								<bool>false</bool>
+								<AST_variable>
+									<attrs>
+										<attr key="phc.filename">sample.php</attr>
+										<attr key="phc.line_number">13</attr>
+										<attr key="phc.unparser.needs_brackets">false</attr>
+									</attrs>
+									<AST_target xsi:nil="true" />
+									<Token_variable_name>
+										<attrs />
+										<value>a</value>
+									</Token_variable_name>
+									<AST_expr_list>
+										<attrs />
+									</AST_expr_list>
+									<AST_expr xsi:nil="true" />
+								</AST_variable>
+							</AST_assignment>
+						</AST_eval_expr>
+					</AST_statement_list>
+				</AST_method>
+				<AST_method>
+					<attrs>
+						<attr key="phc.comments">
+						</attr>
+						<attr key="phc.filename">sample.php</attr>
+						<attr key="phc.line_number">15</attr>
+					</attrs>
+					<AST_signature>
+						<attrs>
+							<attr key="phc.filename">sample.php</attr>
+							<attr key="phc.line_number">17</attr>
+						</attrs>
+						<AST_method_mod>
+							<attrs />
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>true</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+						</AST_method_mod>
+						<bool>false</bool>
+						<Token_method_name>
+							<attrs />
+							<value>private_method_ccc</value>
+						</Token_method_name>
+						<AST_formal_parameter_list>
+							<attrs />
+						</AST_formal_parameter_list>
+					</AST_signature>
+					<AST_statement_list>
+						<attrs>
+							<attr key="phc.comments">
+							</attr>
+						</attrs>
+						<AST_eval_expr>
+							<attrs>
+								<attr key="phc.comments">
+								</attr>
+								<attr key="phc.filename">sample.php</attr>
+								<attr key="phc.line_number">16</attr>
+							</attrs>
+							<AST_assignment>
+								<attrs>
+									<attr key="phc.filename">sample.php</attr>
+									<attr key="phc.line_number">16</attr>
+									<attr key="phc.unparser.is_global_stmt">false</attr>
+									<attr key="phc.unparser.needs_brackets">false</attr>
+								</attrs>
+								<AST_variable>
+									<attrs>
+										<attr key="phc.filename">sample.php</attr>
+										<attr key="phc.line_number">16</attr>
+										<attr key="phc.unparser.needs_brackets">false</attr>
+									</attrs>
+									<AST_target xsi:nil="true" />
+									<Token_variable_name>
+										<attrs />
+										<value>bar</value>
+									</Token_variable_name>
+									<AST_expr_list>
+										<attrs />
+									</AST_expr_list>
+									<AST_expr xsi:nil="true" />
+								</AST_variable>
+								<bool>false</bool>
+								<Token_null>
+									<attrs>
+										<attr key="phc.filename">sample.php</attr>
+										<attr key="phc.line_number">16</attr>
+										<attr key="phc.unparser.needs_brackets">false</attr>
+									</attrs>
+									<source_rep>null</source_rep>
+								</Token_null>
+							</AST_assignment>
+						</AST_eval_expr>
+					</AST_statement_list>
+				</AST_method>
+				<AST_method>
+					<attrs>
+						<attr key="phc.comments">
+						</attr>
+						<attr key="phc.filename">sample.php</attr>
+						<attr key="phc.line_number">18</attr>
+					</attrs>
+					<AST_signature>
+						<attrs>
+							<attr key="phc.filename">sample.php</attr>
+							<attr key="phc.line_number">20</attr>
+						</attrs>
+						<AST_method_mod>
+							<attrs>
+								<attr key="phc.filename">sample.php</attr>
+								<attr key="phc.line_number">18</attr>
+							</attrs>
+							<bool>true</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>true</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+						</AST_method_mod>
+						<bool>false</bool>
+						<Token_method_name>
+							<attrs />
+							<value>public_static_method_getInstance</value>
+						</Token_method_name>
+						<AST_formal_parameter_list>
+							<attrs />
+						</AST_formal_parameter_list>
+					</AST_signature>
+					<AST_statement_list>
+						<attrs>
+							<attr key="phc.comments">
+							</attr>
+						</attrs>
+						<AST_return>
+							<attrs>
+								<attr key="phc.comments">
+								</attr>
+								<attr key="phc.filename">sample.php</attr>
+								<attr key="phc.line_number">19</attr>
+							</attrs>
+							<AST_new>
+								<attrs>
+									<attr key="phc.filename">sample.php</attr>
+									<attr key="phc.line_number">19</attr>
+									<attr key="phc.unparser.needs_brackets">false</attr>
+								</attrs>
+								<Token_class_name>
+									<attrs />
+									<value>Hoge</value>
+								</Token_class_name>
+								<AST_actual_parameter_list>
+									<attrs />
+								</AST_actual_parameter_list>
+							</AST_new>
+						</AST_return>
+					</AST_statement_list>
+				</AST_method>
+			</AST_member_list>
+		</AST_class_def>
+		<AST_class_def>
+			<attrs>
+				<attr key="phc.comments">
+				</attr>
+				<attr key="phc.filename">sample.php</attr>
+				<attr key="phc.line_number">33</attr>
+			</attrs>
+			<AST_class_mod>
+				<attrs>
+					<attr key="phc.filename">sample.php</attr>
+					<attr key="phc.line_number">33</attr>
+				</attrs>
+				<bool>true</bool>
+				<bool>false</bool>
+			</AST_class_mod>
+			<Token_class_name>
+				<attrs />
+				<value>Abstract_QWERT</value>
+			</Token_class_name>
+			<Token_class_name xsi:nil="true" />
+			<Token_interface_name_list>
+				<attrs />
+				<Token_interface_name>
+					<attrs>
+						<attr key="phc.filename">sample.php</attr>
+						<attr key="phc.line_number">33</attr>
+					</attrs>
+					<value>Interface_Foo</value>
+				</Token_interface_name>
+			</Token_interface_name_list>
+			<AST_member_list>
+				<attrs>
+					<attr key="phc.comments">
+					</attr>
+				</attrs>
+			</AST_member_list>
+		</AST_class_def>
+		<AST_class_def>
+			<attrs>
+				<attr key="phc.comments">
+				</attr>
+				<attr key="phc.filename">sample.php</attr>
+				<attr key="phc.line_number">35</attr>
+			</attrs>
+			<AST_class_mod>
+				<attrs>
+					<attr key="phc.filename">sample.php</attr>
+					<attr key="phc.line_number">35</attr>
+				</attrs>
+				<bool>false</bool>
+				<bool>false</bool>
+			</AST_class_mod>
+			<Token_class_name>
+				<attrs />
+				<value>Class_Hoge2</value>
+			</Token_class_name>
+			<Token_class_name xsi:nil="true" />
+			<Token_interface_name_list>
+				<attrs />
+				<Token_interface_name>
+					<attrs>
+						<attr key="phc.filename">sample.php</attr>
+						<attr key="phc.line_number">35</attr>
+					</attrs>
+					<value>Interface_Foo</value>
+				</Token_interface_name>
+			</Token_interface_name_list>
+			<AST_member_list>
+				<attrs>
+					<attr key="phc.comments">
+					</attr>
+				</attrs>
+				<AST_method>
+					<attrs>
+						<attr key="phc.comments">
+						</attr>
+						<attr key="phc.filename">sample.php</attr>
+						<attr key="phc.line_number">36</attr>
+					</attrs>
+					<AST_signature>
+						<attrs>
+							<attr key="phc.filename">sample.php</attr>
+							<attr key="phc.line_number">37</attr>
+						</attrs>
+						<AST_method_mod>
+							<attrs />
+							<bool>true</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+						</AST_method_mod>
+						<bool>false</bool>
+						<Token_method_name>
+							<attrs />
+							<value>methodA</value>
+						</Token_method_name>
+						<AST_formal_parameter_list>
+							<attrs />
+						</AST_formal_parameter_list>
+					</AST_signature>
+					<AST_statement_list>
+						<attrs>
+							<attr key="phc.comments">
+							</attr>
+						</attrs>
+					</AST_statement_list>
+				</AST_method>
+				<AST_method>
+					<attrs>
+						<attr key="phc.comments">
+						</attr>
+						<attr key="phc.filename">sample.php</attr>
+						<attr key="phc.line_number">38</attr>
+					</attrs>
+					<AST_signature>
+						<attrs>
+							<attr key="phc.filename">sample.php</attr>
+							<attr key="phc.line_number">39</attr>
+						</attrs>
+						<AST_method_mod>
+							<attrs />
+							<bool>true</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+						</AST_method_mod>
+						<bool>false</bool>
+						<Token_method_name>
+							<attrs />
+							<value>methodB</value>
+						</Token_method_name>
+						<AST_formal_parameter_list>
+							<attrs />
+							<AST_formal_parameter>
+								<attrs>
+									<attr key="phc.filename">sample.php</attr>
+									<attr key="phc.line_number">38</attr>
+								</attrs>
+								<AST_type>
+									<attrs>
+										<attr key="phc.filename">sample.php</attr>
+										<attr key="phc.line_number">38</attr>
+									</attrs>
+									<bool>false</bool>
+									<Token_class_name>
+										<attrs />
+										<value>Hoge</value>
+									</Token_class_name>
+								</AST_type>
+								<bool>false</bool>
+								<Token_variable_name>
+									<attrs />
+									<value>hoge</value>
+								</Token_variable_name>
+								<AST_expr xsi:nil="true" />
+							</AST_formal_parameter>
+						</AST_formal_parameter_list>
+					</AST_signature>
+					<AST_statement_list>
+						<attrs>
+							<attr key="phc.comments">
+							</attr>
+						</attrs>
+					</AST_statement_list>
+				</AST_method>
+				<AST_method>
+					<attrs>
+						<attr key="phc.comments">
+						</attr>
+						<attr key="phc.filename">sample.php</attr>
+						<attr key="phc.line_number">40</attr>
+					</attrs>
+					<AST_signature>
+						<attrs>
+							<attr key="phc.filename">sample.php</attr>
+							<attr key="phc.line_number">41</attr>
+						</attrs>
+						<AST_method_mod>
+							<attrs />
+							<bool>true</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+						</AST_method_mod>
+						<bool>false</bool>
+						<Token_method_name>
+							<attrs />
+							<value>methodC</value>
+						</Token_method_name>
+						<AST_formal_parameter_list>
+							<attrs />
+							<AST_formal_parameter>
+								<attrs>
+									<attr key="phc.filename">sample.php</attr>
+									<attr key="phc.line_number">40</attr>
+								</attrs>
+								<AST_type>
+									<attrs>
+										<attr key="phc.filename">sample.php</attr>
+										<attr key="phc.line_number">40</attr>
+									</attrs>
+									<bool>false</bool>
+									<Token_class_name>
+										<attrs />
+										<value>Hoge</value>
+									</Token_class_name>
+								</AST_type>
+								<bool>false</bool>
+								<Token_variable_name>
+									<attrs />
+									<value>hoge</value>
+								</Token_variable_name>
+								<AST_expr xsi:nil="true" />
+							</AST_formal_parameter>
+							<AST_formal_parameter>
+								<attrs>
+									<attr key="phc.filename">sample.php</attr>
+									<attr key="phc.line_number">40</attr>
+								</attrs>
+								<AST_type>
+									<attrs>
+										<attr key="phc.filename">sample.php</attr>
+										<attr key="phc.line_number">40</attr>
+									</attrs>
+									<bool>false</bool>
+									<Token_class_name>
+										<attrs />
+										<value>Hoge</value>
+									</Token_class_name>
+								</AST_type>
+								<bool>false</bool>
+								<Token_variable_name>
+									<attrs />
+									<value>foo</value>
+								</Token_variable_name>
+								<Token_null>
+									<attrs>
+										<attr key="phc.filename">sample.php</attr>
+										<attr key="phc.line_number">40</attr>
+										<attr key="phc.unparser.needs_brackets">false</attr>
+									</attrs>
+									<source_rep>null</source_rep>
+								</Token_null>
+							</AST_formal_parameter>
+						</AST_formal_parameter_list>
+					</AST_signature>
+					<AST_statement_list>
+						<attrs>
+							<attr key="phc.comments">
+							</attr>
+						</attrs>
+					</AST_statement_list>
+				</AST_method>
+			</AST_member_list>
+		</AST_class_def>
+		<AST_class_def>
+			<attrs>
+				<attr key="phc.comments">
+				</attr>
+				<attr key="phc.filename">sample.php</attr>
+				<attr key="phc.line_number">43</attr>
+			</attrs>
+			<AST_class_mod>
+				<attrs>
+					<attr key="phc.filename">sample.php</attr>
+					<attr key="phc.line_number">43</attr>
+				</attrs>
+				<bool>false</bool>
+				<bool>false</bool>
+			</AST_class_mod>
+			<Token_class_name>
+				<attrs />
+				<value>Class_Hoge3</value>
+			</Token_class_name>
+			<Token_class_name>
+				<attrs />
+				<value>Abstract_QWERT</value>
+			</Token_class_name>
+			<Token_interface_name_list>
+				<attrs />
+			</Token_interface_name_list>
+			<AST_member_list>
+				<attrs>
+					<attr key="phc.comments">
+					</attr>
+				</attrs>
+				<AST_method>
+					<attrs>
+						<attr key="phc.comments">
+						</attr>
+						<attr key="phc.filename">sample.php</attr>
+						<attr key="phc.line_number">44</attr>
+					</attrs>
+					<AST_signature>
+						<attrs>
+							<attr key="phc.filename">sample.php</attr>
+							<attr key="phc.line_number">45</attr>
+						</attrs>
+						<AST_method_mod>
+							<attrs />
+							<bool>true</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+						</AST_method_mod>
+						<bool>false</bool>
+						<Token_method_name>
+							<attrs />
+							<value>methodA</value>
+						</Token_method_name>
+						<AST_formal_parameter_list>
+							<attrs />
+						</AST_formal_parameter_list>
+					</AST_signature>
+					<AST_statement_list>
+						<attrs>
+							<attr key="phc.comments">
+							</attr>
+						</attrs>
+					</AST_statement_list>
+				</AST_method>
+				<AST_method>
+					<attrs>
+						<attr key="phc.comments">
+						</attr>
+						<attr key="phc.filename">sample.php</attr>
+						<attr key="phc.line_number">46</attr>
+					</attrs>
+					<AST_signature>
+						<attrs>
+							<attr key="phc.filename">sample.php</attr>
+							<attr key="phc.line_number">47</attr>
+						</attrs>
+						<AST_method_mod>
+							<attrs />
+							<bool>true</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+						</AST_method_mod>
+						<bool>false</bool>
+						<Token_method_name>
+							<attrs />
+							<value>methodB</value>
+						</Token_method_name>
+						<AST_formal_parameter_list>
+							<attrs />
+							<AST_formal_parameter>
+								<attrs>
+									<attr key="phc.filename">sample.php</attr>
+									<attr key="phc.line_number">46</attr>
+								</attrs>
+								<AST_type>
+									<attrs>
+										<attr key="phc.filename">sample.php</attr>
+										<attr key="phc.line_number">46</attr>
+									</attrs>
+									<bool>false</bool>
+									<Token_class_name>
+										<attrs />
+										<value>Hoge</value>
+									</Token_class_name>
+								</AST_type>
+								<bool>false</bool>
+								<Token_variable_name>
+									<attrs />
+									<value>hoge</value>
+								</Token_variable_name>
+								<AST_expr xsi:nil="true" />
+							</AST_formal_parameter>
+						</AST_formal_parameter_list>
+					</AST_signature>
+					<AST_statement_list>
+						<attrs>
+							<attr key="phc.comments">
+							</attr>
+						</attrs>
+					</AST_statement_list>
+				</AST_method>
+				<AST_method>
+					<attrs>
+						<attr key="phc.comments">
+						</attr>
+						<attr key="phc.filename">sample.php</attr>
+						<attr key="phc.line_number">48</attr>
+					</attrs>
+					<AST_signature>
+						<attrs>
+							<attr key="phc.filename">sample.php</attr>
+							<attr key="phc.line_number">49</attr>
+						</attrs>
+						<AST_method_mod>
+							<attrs />
+							<bool>true</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+						</AST_method_mod>
+						<bool>false</bool>
+						<Token_method_name>
+							<attrs />
+							<value>methodC</value>
+						</Token_method_name>
+						<AST_formal_parameter_list>
+							<attrs />
+							<AST_formal_parameter>
+								<attrs>
+									<attr key="phc.filename">sample.php</attr>
+									<attr key="phc.line_number">48</attr>
+								</attrs>
+								<AST_type>
+									<attrs>
+										<attr key="phc.filename">sample.php</attr>
+										<attr key="phc.line_number">48</attr>
+									</attrs>
+									<bool>false</bool>
+									<Token_class_name>
+										<attrs />
+										<value>Hoge</value>
+									</Token_class_name>
+								</AST_type>
+								<bool>false</bool>
+								<Token_variable_name>
+									<attrs />
+									<value>hoge</value>
+								</Token_variable_name>
+								<AST_expr xsi:nil="true" />
+							</AST_formal_parameter>
+							<AST_formal_parameter>
+								<attrs>
+									<attr key="phc.filename">sample.php</attr>
+									<attr key="phc.line_number">48</attr>
+								</attrs>
+								<AST_type>
+									<attrs>
+										<attr key="phc.filename">sample.php</attr>
+										<attr key="phc.line_number">48</attr>
+									</attrs>
+									<bool>false</bool>
+									<Token_class_name>
+										<attrs />
+										<value>Hoge</value>
+									</Token_class_name>
+								</AST_type>
+								<bool>false</bool>
+								<Token_variable_name>
+									<attrs />
+									<value>foo</value>
+								</Token_variable_name>
+								<Token_null>
+									<attrs>
+										<attr key="phc.filename">sample.php</attr>
+										<attr key="phc.line_number">48</attr>
+										<attr key="phc.unparser.needs_brackets">false</attr>
+									</attrs>
+									<source_rep>null</source_rep>
+								</Token_null>
+							</AST_formal_parameter>
+						</AST_formal_parameter_list>
+					</AST_signature>
+					<AST_statement_list>
+						<attrs>
+							<attr key="phc.comments">
+							</attr>
+						</attrs>
+					</AST_statement_list>
+				</AST_method>
+			</AST_member_list>
+		</AST_class_def>
+		<AST_class_def>
+			<attrs>
+				<attr key="phc.comments">
+				</attr>
+				<attr key="phc.filename">sample.php</attr>
+				<attr key="phc.line_number">51</attr>
+			</attrs>
+			<AST_class_mod>
+				<attrs>
+					<attr key="phc.filename">sample.php</attr>
+					<attr key="phc.line_number">51</attr>
+				</attrs>
+				<bool>false</bool>
+				<bool>false</bool>
+			</AST_class_mod>
+			<Token_class_name>
+				<attrs />
+				<value>Class_Hoge4</value>
+			</Token_class_name>
+			<Token_class_name>
+				<attrs />
+				<value>Class_Hoge</value>
+			</Token_class_name>
+			<Token_interface_name_list>
+				<attrs />
+			</Token_interface_name_list>
+			<AST_member_list>
+				<attrs>
+					<attr key="phc.comments">
+					</attr>
+				</attrs>
+			</AST_member_list>
+		</AST_class_def>
+		<AST_class_def>
+			<attrs>
+				<attr key="phc.comments">
+				</attr>
+			</attrs>
+			<AST_class_mod>
+				<attrs />
+				<bool>false</bool>
+				<bool>false</bool>
+			</AST_class_mod>
+			<Token_class_name>
+				<attrs />
+				<value>%MAIN%</value>
+			</Token_class_name>
+			<Token_class_name xsi:nil="true" />
+			<Token_interface_name_list>
+				<attrs />
+			</Token_interface_name_list>
+			<AST_member_list>
+				<attrs>
+					<attr key="phc.comments">
+					</attr>
+				</attrs>
+				<AST_method>
+					<attrs>
+						<attr key="phc.comments">
+						</attr>
+						<attr key="phc.filename">sample.php</attr>
+						<attr key="phc.line_number">55</attr>
+					</attrs>
+					<AST_signature>
+						<attrs>
+							<attr key="phc.filename">sample.php</attr>
+							<attr key="phc.line_number">56</attr>
+						</attrs>
+						<AST_method_mod>
+							<attrs />
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>true</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+						</AST_method_mod>
+						<bool>false</bool>
+						<Token_method_name>
+							<attrs />
+							<value>global_bar</value>
+						</Token_method_name>
+						<AST_formal_parameter_list>
+							<attrs />
+						</AST_formal_parameter_list>
+					</AST_signature>
+					<AST_statement_list>
+						<attrs>
+							<attr key="phc.comments">
+							</attr>
+						</attrs>
+					</AST_statement_list>
+				</AST_method>
+				<AST_method>
+					<attrs>
+						<attr key="phc.comments">
+						</attr>
+						<attr key="phc.filename">sample.php</attr>
+						<attr key="phc.line_number">57</attr>
+					</attrs>
+					<AST_signature>
+						<attrs>
+							<attr key="phc.filename">sample.php</attr>
+							<attr key="phc.line_number">57</attr>
+						</attrs>
+						<AST_method_mod>
+							<attrs />
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+							<bool>true</bool>
+							<bool>false</bool>
+							<bool>false</bool>
+						</AST_method_mod>
+						<bool>false</bool>
+						<Token_method_name>
+							<attrs />
+							<value>%run%</value>
+						</Token_method_name>
+						<AST_formal_parameter_list>
+							<attrs />
+						</AST_formal_parameter_list>
+					</AST_signature>
+					<AST_statement_list>
+						<attrs>
+							<attr key="phc.comments">
+							</attr>
+						</attrs>
+						<AST_eval_expr>
+							<attrs>
+								<attr key="phc.comments">
+								</attr>
+								<attr key="phc.filename">sample.php</attr>
+								<attr key="phc.line_number">54</attr>
+							</attrs>
+							<AST_assignment>
+								<attrs>
+									<attr key="phc.filename">sample.php</attr>
+									<attr key="phc.line_number">54</attr>
+									<attr key="phc.unparser.is_global_stmt">false</attr>
+									<attr key="phc.unparser.needs_brackets">false</attr>
+								</attrs>
+								<AST_variable>
+									<attrs>
+										<attr key="phc.filename">sample.php</attr>
+										<attr key="phc.line_number">54</attr>
+										<attr key="phc.unparser.needs_brackets">false</attr>
+									</attrs>
+									<Token_class_name>
+										<attrs />
+										<value>%MAIN%</value>
+									</Token_class_name>
+									<Token_variable_name>
+										<attrs />
+										<value>foofoofoo</value>
+									</Token_variable_name>
+									<AST_expr_list>
+										<attrs />
+									</AST_expr_list>
+									<AST_expr xsi:nil="true" />
+								</AST_variable>
+								<bool>false</bool>
+								<AST_array>
+									<attrs>
+										<attr key="phc.filename">sample.php</attr>
+										<attr key="phc.line_number">54</attr>
+										<attr key="phc.unparser.needs_brackets">false</attr>
+									</attrs>
+									<AST_array_elem_list>
+										<attrs />
+									</AST_array_elem_list>
+								</AST_array>
+							</AST_assignment>
+						</AST_eval_expr>
+					</AST_statement_list>
+				</AST_method>
+				<AST_attribute>
+					<attrs>
+						<attr key="phc.comments">
+						</attr>
+					</attrs>
+					<AST_attr_mod>
+						<attrs />
+						<bool>false</bool>
+						<bool>false</bool>
+						<bool>false</bool>
+						<bool>true</bool>
+						<bool>false</bool>
+					</AST_attr_mod>
+					<Token_variable_name>
+						<attrs />
+						<value>foofoofoo</value>
+					</Token_variable_name>
+					<AST_expr xsi:nil="true" />
+				</AST_attribute>
+			</AST_member_list>
+		</AST_class_def>
+	</AST_class_def_list>
+</AST_php_script>
