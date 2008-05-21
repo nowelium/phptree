@@ -2,7 +2,7 @@
 
 interface IMetaData {
     public function getNodeName();
-    public function toJSValue(IJSExchange $exchange);
+    public function toJSValue(IExchange $exchange);
 }
 
 class PHPScriptMetaData implements IMetaData {
@@ -24,7 +24,7 @@ class PHPScriptMetaData implements IMetaData {
     public function getClassList(){
         return $this->classList;
     }
-    public function toJSValue(IJSExchange $exchange){
+    public function toJSValue(IExchange $exchange){
         return $exchange->visitPHPScriptMeta($this);
     }
 }
@@ -55,7 +55,7 @@ class InterfaceMetaData implements IMetaData {
     public function getMemberList(){
         return $this->memberList;
     }
-    public function toJSValue(IJSExchange $exchange){
+    public function toJSValue(IExchange $exchange){
         return $exchange->visitInterfaceMeta($this);
     }
 }
@@ -86,7 +86,7 @@ class ClassMetaData implements IMetaData {
     public function getMemberList(){
         return $this->memberList;
     }
-    public function toJSValue(IJSExchange $exchange){
+    public function toJSValue(IExchange $exchange){
         return $exchange->visitClassMeta($this);
     }
 }
@@ -110,7 +110,7 @@ class MethodMetaData implements IMetaData {
     public function getParameterList(){
         return $this->parameterList;
     }
-    public function toJSValue(IJSExchange $exchange){
+    public function toJSValue(IExchange $exchange){
         return $exchange->visitMethodMeta($this);
     }
 }
@@ -134,7 +134,7 @@ class AttributeMetaData implements IMetaData {
     public function getAttribute(){
         return $this->attribute;
     }
-    public function toJSValue(IJSExchange $exchange){
+    public function toJSValue(IExchange $exchange){
         return $exchange->visitAttributeMeta($this);
     }
 }
@@ -158,7 +158,7 @@ class ParameterMetaData implements IMetaData {
     public function getToken(){
         return $this->token;
     }
-    public function toJSValue(IJSExchange $exchange){
+    public function toJSValue(IExchange $exchange){
         return $exchange->visitParameterMeta($this);
     }
 }
@@ -175,7 +175,7 @@ class TypeMetaData implements IMetaData {
     public function getToken(){
         return $this->token;
     }
-    public function toJSValue(IJSExchange $exchange){
+    public function toJSValue(IExchange $exchange){
         return $exchange->visitTypeMeta($this);
     }
 }
@@ -191,7 +191,7 @@ class AttributeValueMetaData implements IMetaData {
     public function getAttribute(){
         return $this->attribute;
     }
-    public function toJSValue(IJSExchange $exchange){
+    public function toJSValue(IExchange $exchange){
         return $exchange->visitAttributeValueMeta($this);
     }
 }
@@ -204,7 +204,7 @@ class NopAttributeValueMetaData extends AttributeValueMetaData {
     /**
      * override
      */
-    public function toJSValue(IJSExchange $exchange){
+    public function toJSValue(IExchange $exchange){
         return $exchange->visitNopAttributeValueMeta($this);
     }
 }
@@ -221,7 +221,7 @@ class InterfaceTokenMetaData implements IMetaData {
     public function getValue(){
         return $this->value;
     }
-    public function toJSValue(IJSExchange $exchange){
+    public function toJSValue(IExchange $exchange){
         return $exchange->visitInterfaceTokenMeta($this);
     }
 }
@@ -237,7 +237,7 @@ class ClassTokenMetaData implements IMetaData {
     public function getValue(){
         return $this->value;
     }
-    public function toJSValue(IJSExchange $exchange){
+    public function toJSValue(IExchange $exchange){
         return $exchange->visitClassTokenMeta($this);
     }
 }
@@ -253,7 +253,7 @@ class MethodTokenMetaData implements IMetaData {
     public function getValue(){
         return $this->value;
     }
-    public function toJSValue(IJSExchange $exchange){
+    public function toJSValue(IExchange $exchange){
         return $exchange->visitMethodTokenMeta($this);
     }
 }
@@ -271,7 +271,7 @@ class VariableTokenMetaData implements IMetaData {
     public function setValue($value){
         $this->value = $value;
     }
-    public function toJSValue(IJSExchange $exchange){
+    public function toJSValue(IExchange $exchange){
         return $exchange->visitVariableTokenMeta($this);
     }
 }
@@ -290,7 +290,7 @@ class IntegerAttributeMetaData implements IAttributeToken {
     public function getValue(){
         return $this->value;
     }
-    public function toJSValue(IJSExchange $exchange){
+    public function toJSValue(IExchange $exchange){
         return $exchange->visitIntegerAttributeMeta($this);
     }
 }
@@ -306,7 +306,7 @@ class StringAttributeMetaData implements IAttributeToken {
     public function getValue(){
         return $this->value;
     }
-    public function toJSValue(IJSExchange $exchange){
+    public function toJSValue(IExchange $exchange){
         return $exchange->visitStringAttributeMeta($this);
     }
 }
@@ -322,7 +322,7 @@ class BooleanAttributeMetaData implements IAttributeToken {
     public function getValue(){
         return $this->value;
     }
-    public function toJSValue(IJSExchange $exchange){
+    public function toJSValue(IExchange $exchange){
         return $exchange->visitBooleanAttributeMeta($this);
     }
 }
@@ -338,7 +338,7 @@ class RealAttributeMetaData implements IAttributeToken {
     public function getValue(){
         return $this->value;
     }
-    public function toJSValue(IJSExchange $exchange){
+    public function toJSValue(IExchange $exchange){
         return $exchange->visitRealAttributeMeta($this);
     }
 }
@@ -354,7 +354,7 @@ class ArrayAttributeMetaData implements IAttributeToken {
     public function getElementList(){
         return $this->elementList;
     }
-    public function toJSValue(IJSExchange $exchange){
+    public function toJSValue(IExchange $exchange){
         return $exchange->visitArrayAttributeMeta($this);
     }
 }
@@ -370,7 +370,7 @@ class ArrayElementMetaData implements IAttributeToken {
     public function getToken(){
         return $this->token;
     }
-    public function toJSValue(IJSExchange $exchange){
+    public function toJSValue(IExchange $exchange){
         return $exchange->visitArrayElementMeta($this);
     }
 }
@@ -391,7 +391,7 @@ class ArrayHashElementMetaData implements IAttributeToken {
     public function getValueToken(){
         return $this->valueToken;
     }
-    public function toJSValue(IJSExchange $exchange){
+    public function toJSValue(IExchange $exchange){
         return $exchange->visitArrayHashElementMeta($this);
     }
 }
@@ -412,7 +412,7 @@ class InterfaceMetaDataList implements IMetaDataList {
     public function getList(){
         return $this->metas;
     }
-    public function toJSValue(IJSExchange $exchange){
+    public function toJSValue(IExchange $exchange){
         return $exchange->visitInterfaceListMeta($this);
     }
 }
@@ -428,7 +428,7 @@ class ClassMetaDataList implements IMetaDataList {
     public function getList(){
         return $this->metas;
     }
-    public function toJSValue(IJSExchange $exchange){
+    public function toJSValue(IExchange $exchange){
         return $exchange->visitClassListMeta($this);
     }
 }
@@ -444,7 +444,7 @@ class InterfaceTokenMetaDataList implements IMetaDataList {
     public function getList(){
         return $this->metas;
     }
-    public function toJSValue(IJSExchange $exchange){
+    public function toJSValue(IExchange $exchange){
         return $exchange->visitInterfaceTokenListMeta($this);
     }
 }
@@ -460,7 +460,7 @@ class MemberMetaDataList implements IMetaDataList {
     public function getList(){
         return $this->metas;
     }
-    public function toJSValue(IJSExchange $exchange){
+    public function toJSValue(IExchange $exchange){
         return $exchange->visitMemberListMeta($this);
     }
 }
@@ -476,7 +476,7 @@ class ArrayElementMetaDataList implements IMetaDataList {
     public function getList(){
         return $this->metas;
     }
-    public function toJSValue(IJSExchange $exchange){
+    public function toJSValue(IExchange $exchange){
         return $exchange->visitArrayElementListMeta($this);
     }
 }
@@ -492,7 +492,7 @@ class ParameterMetaDataList implements IMetaDataList {
     public function getList(){
         return $this->metas;
     }
-    public function toJSValue(IJSExchange $exchange){
+    public function toJSValue(IExchange $exchange){
         return $exchange->visitParameterListMeta($this);
     }
 }
