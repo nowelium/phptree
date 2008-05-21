@@ -224,7 +224,6 @@ class PHCUtils {
                 $classMeta->setToken(new ClassTokenMetaData(self::getTokenValue($classDef->Token_class_name)));
                 $classMeta->setInterfaceMetaDataList(self::getInterfaceNameList($classDef));
                 $classMeta->setMemberList(self::getMemberList($classDef));
-
                 $list->add($classMeta);
             }
         }
